@@ -12,6 +12,7 @@
 		F5DD55D41EAFDF3800AC71E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DD55D21EAFDF3800AC71E5 /* Main.storyboard */; };
 		F5DD55D61EAFDF3800AC71E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DD55D51EAFDF3800AC71E5 /* Assets.xcassets */; };
 		F5DD55D91EAFDF3800AC71E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DD55D71EAFDF3800AC71E5 /* LaunchScreen.storyboard */; };
+		F5DD55E11EAFDF5C00AC71E5 /* WebserviceAndModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD55E01EAFDF5C00AC71E5 /* WebserviceAndModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F5DD55D51EAFDF3800AC71E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5DD55D81EAFDF3800AC71E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5DD55DA1EAFDF3800AC71E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5DD55E01EAFDF5C00AC71E5 /* WebserviceAndModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceAndModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F5DD55CE1EAFDF3800AC71E5 /* AppDelegate.swift */,
 				F5DD55D01EAFDF3800AC71E5 /* ViewController.swift */,
 				F5DD55D21EAFDF3800AC71E5 /* Main.storyboard */,
+				F5DD55E01EAFDF5C00AC71E5 /* WebserviceAndModel.swift */,
 				F5DD55D51EAFDF3800AC71E5 /* Assets.xcassets */,
 				F5DD55D71EAFDF3800AC71E5 /* LaunchScreen.storyboard */,
 				F5DD55DA1EAFDF3800AC71E5 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				F5DD55D11EAFDF3800AC71E5 /* ViewController.swift in Sources */,
 				F5DD55CF1EAFDF3800AC71E5 /* AppDelegate.swift in Sources */,
+				F5DD55E11EAFDF5C00AC71E5 /* WebserviceAndModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

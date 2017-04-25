@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Shopify_Challenge" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,92 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="K3b-hd-AuE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qgr-G5-NDc">
+                                <rect key="frame" x="-0.5" y="-0.5" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="QuO-Xj-n3g">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Ae-ot-nhT">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="TK5-qf-DRj">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Quantity:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXp-VQ-Uoq">
+                                                        <rect key="frame" x="37" y="217" width="70" height="21"/>
+                                                        <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Fulfillable: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIu-Sn-cAS">
+                                                        <rect key="frame" x="37" y="246" width="82" height="21"/>
+                                                        <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Total Revenue:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cm6-us-kg8">
+                                                        <rect key="frame" x="37" y="192" width="113" height="21"/>
+                                                        <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Mobile Development Problem" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x8x-eA-r90">
+                                                        <rect key="frame" x="37" y="163" width="290" height="21"/>
+                                                        <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="28"/>
+                                                        <color key="textColor" red="0.84059723980000001" green="0.35120185929999997" blue="0.1874443808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="rIu-Sn-cAS" firstAttribute="top" secondItem="TXp-VQ-Uoq" secondAttribute="bottom" constant="8" id="Cg3-mK-nDn"/>
+                                                    <constraint firstItem="rIu-Sn-cAS" firstAttribute="centerX" secondItem="TK5-qf-DRj" secondAttribute="centerX" id="DFk-5B-9yr"/>
+                                                    <constraint firstItem="TXp-VQ-Uoq" firstAttribute="centerX" secondItem="TK5-qf-DRj" secondAttribute="centerX" id="RLU-Yz-Tx2"/>
+                                                    <constraint firstItem="TXp-VQ-Uoq" firstAttribute="top" secondItem="Cm6-us-kg8" secondAttribute="bottom" constant="4" id="TWZ-vD-MrA"/>
+                                                    <constraint firstItem="x8x-eA-r90" firstAttribute="centerX" secondItem="TK5-qf-DRj" secondAttribute="centerX" id="bWp-2a-nx7"/>
+                                                    <constraint firstItem="x8x-eA-r90" firstAttribute="top" secondItem="TK5-qf-DRj" secondAttribute="top" constant="163" id="nK4-Nd-jQ5"/>
+                                                    <constraint firstItem="Cm6-us-kg8" firstAttribute="top" secondItem="x8x-eA-r90" secondAttribute="bottom" constant="8" id="qNU-Kw-aRy"/>
+                                                    <constraint firstItem="Cm6-us-kg8" firstAttribute="centerX" secondItem="TK5-qf-DRj" secondAttribute="centerX" id="svI-TF-zRe"/>
+                                                </constraints>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="light"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Qgr-G5-NDc" firstAttribute="centerX" secondItem="K3b-hd-AuE" secondAttribute="centerX" id="9D3-S7-EDE"/>
+                            <constraint firstItem="Qgr-G5-NDc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Ahd-oM-G9V"/>
+                            <constraint firstItem="K3b-hd-AuE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ByN-5Q-hnf"/>
+                            <constraint firstItem="K3b-hd-AuE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S3W-ME-dPc"/>
+                            <constraint firstItem="K3b-hd-AuE" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="bme-rs-wD9"/>
+                            <constraint firstItem="Qgr-G5-NDc" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="q79-P0-2iu"/>
+                            <constraint firstItem="Qgr-G5-NDc" firstAttribute="centerY" secondItem="K3b-hd-AuE" secondAttribute="centerY" id="vhJ-6W-x7O"/>
+                            <constraint firstItem="K3b-hd-AuE" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="yC2-eu-SCc"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="fulfillable" destination="rIu-Sn-cAS" id="cD2-2f-1DZ"/>
+                        <outlet property="quantity" destination="TXp-VQ-Uoq" id="1Pu-h2-Xey"/>
+                        <outlet property="revenue" destination="Cm6-us-kg8" id="BTd-Bj-YAL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140" y="117.39130434782609"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="1200" height="879"/>
+    </resources>
 </document>
